@@ -1,0 +1,1245 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathrusya Child Home | Hope, Care & Education for Underprivileged Children</title>
+    <meta name="description"
+        content="Mathrusya Child Home is a charitable orphanage in Tirupati, Andhra Pradesh, providing shelter, care, nutrition, and education for underprivileged children since 2007.">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#home" class="logo-container" id="nav-logo">
+                <img src="assets/LOGO MATHRUSYA.png" alt="Mathrusya Child Home Logo" class="nav-logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">Mathrusya</span>
+                    <span class="logo-subtitle">Child Home</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#about" class="nav-link" data-page="about">About Us</a>
+                <a href="#children" class="nav-link" data-page="children">Our Children</a>
+                <a href="#gallery" class="nav-link" data-page="gallery">Gallery</a>
+                <a href="#donate" class="nav-link btn-donate-nav" data-page="donate">How to Help</a>
+                <a href="#contact" class="nav-link" data-page="contact">Contact Us</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+        <!-- SECTION: HOME -->
+        <section id="home" class="page-section active">
+            <!-- Hero Layout -->
+            <div class="hero-section">
+                <div class="hero-container">
+                    <div class="hero-info">
+                        <span class="hero-tagline">Providing Shelter, Hope & Dignity Since 2007</span>
+                        <h1 class="hero-title">Every Child Deserves a <span class="highlight">Bright Future</span></h1>
+                        <p class="hero-desc">Mathrusya Child Home is a safe haven in Tirupati, dedicated to nurturing,
+                            educating, and supporting orphan and underprivileged children, helping them become
+                            independent citizens.</p>
+                        <div class="hero-actions">
+                            <a href="#donate" class="btn btn-primary" onclick="navigateToPage('donate')">Sponsor a
+                                Child</a>
+                            <a href="#about" class="btn btn-secondary" onclick="navigateToPage('about')">Our Story</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-slideshow-container">
+                            <div class="hero-slideshow" id="hero-slideshow">
+                                <div class="slide active">
+                                    <img src="assets/group-1.jpeg" alt="Happy children care and family"
+                                        class="slide-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/food_2.webp" alt="Food service for children" class="slide-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/celebration-1.jpeg" alt="Festival Celebrations and Events"
+                                        class="slide-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/education_1.webp" alt="Learning and Educational Support"
+                                        class="slide-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/health.webp" alt="Health Care Community" class="slide-img">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/service-4.png" alt="Funeral service" class="slide-img">
+                                </div>
+                            </div>
+
+                            <!-- Slideshow Navigation Buttons -->
+                            <button class="slideshow-btn prev-btn" id="hero-prev-btn"
+                                aria-label="Previous Slide">&#10094;</button>
+                            <button class="slideshow-btn next-btn" id="hero-next-btn"
+                                aria-label="Next Slide">&#10095;</button>
+
+                            <!-- Slideshow Pagination Dots -->
+                            <div class="slideshow-dots" id="hero-slideshow-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+
+                            <!-- Floating Badge -->
+                            <div class="floating-badge badge-top">
+                                <span class="badge-icon">&#10084;&#65039;</span>
+                                <div class="badge-text">
+                                    <p class="badge-num">120+</p>
+                                    <p class="badge-label">Children &amp; Old Age People</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Stats Bar Section -->
+            <section class="stats-section">
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="18">0</h3>
+                        <p class="stat-label">Years of Care</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="150">0</h3>
+                        <p class="stat-label">Children & Old Age Peoplein Home</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <span class="stat-suffix">%</span>
+                        <p class="stat-label">Care & Safety</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="50">0</h3>
+                        <span class="stat-suffix">+</span>
+                        <p class="stat-label">Volunteers & Donors</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Info / Pillars Section -->
+            <section class="pillars-section">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">How We Support</span>
+                    <h2 class="section-title">Our Core Pillars of Care</h2>
+                    <p class="section-subtitle">We believe that physical care, mental development, and education are the
+                        foundational rights of every child.</p>
+                </div>
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-icon-wrapper p-orange">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </div>
+                        <h3>Nutritional Food</h3>
+                        <p>We provide three hygienic, balanced meals daily, tailored to meet the growing nutritional
+                            needs of children.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon-wrapper p-green">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3>Safe Shelter</h3>
+                        <p>A safe, warm, and loving residential environment with clean facilities and full-time security
+                            and supervision.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon-wrapper p-blue">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                            </svg>
+                        </div>
+                        <h3>Quality Education</h3>
+                        <p>Enrolling all children in local schools and providing additional STEM education, libraries,
+                            and coaching support.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon-wrapper p-yellow">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                            </svg>
+                        </div>
+                        <h3>Healthcare & Therapy</h3>
+                        <p>Regular health checkup camps, psychological wellness workshops, and specialized counseling or
+                            therapies.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Activities & Highlights -->
+            <section class="highlights-section">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">Updates </span>
+                    <h2 class="section-title">Latest Activities at Mathrusya</h2>
+                </div>
+                <div class="highlights-grid">
+                    <div class="activity-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/serve-2.webp" alt="Daily food Distribution" class="activity-img">
+                            <span class="activity-date">2026</span>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Daily food Distribution</h3>
+                            <p>We provide free daily meals to homeless and needy people outside our orphanage.
+                                Through this initiative, we aim to serve humanity with love, care, and compassion.</p>
+                        </div>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-img-wrapper">
+                            <!-- High quality Unsplash placeholder for health camp -->
+                            <img src="assets/health.webp" alt="Health Camp" class="activity-img">
+                            <span class="activity-date"> 2026</span>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Annual Health & Wellness Camp</h3>
+                            <p>A team of children's doctors and dentists conducted a complete health check-up camp for
+                                the children.
+                                Free medicines and nutritional supplements were also given to the children.</p>
+                        </div>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-img-wrapper">
+                            <!-- High quality Unsplash placeholder for festival -->
+                            <img src="assets/independence day.jpeg" alt="Independence day Celebrations"
+                                class="activity-img">
+                            <span class="activity-date">August 15, 2026</span>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Independence day Celebrations</h3>
+                            <p>We proudly celebrated Independence Day at our orphanage with great joy and patriotism.
+                                The children participated in flag hoisting, cultural activities, and celebrations.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- SECTION: ABOUT US -->
+        <section id="about" class="page-section">
+            <div class="section-header-banner">
+                <h1>About Mathrusya</h1>
+                <p>Learn about our roots, our mission, and the people behind this home.</p>
+            </div>
+
+            <div class="about-story-container">
+                <div class="about-story-text">
+                    <h2>Our Story</h2>
+                    <p>Established in <strong>2007</strong> in Tirupati, Andhra Pradesh,dedicated to serving humanity
+                        with love and compassion.
+                        What began as a small initiative to support a few orphan children has grown over the past two
+                        decades into a structured
+                        and registered charitable trust serving underprivileged, homeless, and needy people.We believe
+                        in creating a caring,
+                        family-like environment where every individual is treated with dignity, love, and respect. Our
+                        mission is to provide
+                        essential support, security, nutrition, education, and emotional care to those in need.</p>
+
+                    <div class="quote-box">
+                        <p class="quote-text">"Every orphan child deserves the same warmth, care, and quality education
+                            as any other child. We are not just a shelter; we are a family.we are home."</p>
+                        <p class="quote-author">— Dr.T.Sridevi, Founder</p>
+                    </div>
+                </div>
+                <div class="about-story-image">
+                    <img src="assets/group-2.webp" alt="Mathrusya Child Home Building" class="about-img shadow-effect">
+                </div>
+            </div>
+
+            <!-- Founder Section -->
+            <section class="founder-section">
+                <div class="founder-card-inner">
+                    <h2>The Visionary Behind the Mission</h2>
+                    <div class="founder-profile-grid">
+                        <div class="founder-photo-box">
+                            <img src="assets/owner.webp" alt="T SRIDEVI" class="founder-img">
+                        </div>
+                        <div class="founder-bio">
+                            <h3>DR.T.SRIDEVI</h3>
+                            <p class="founder-title">Founder & Managing Trustee</p>
+                            <p>DR.T.Sridevi director and founder of mathrusya non governmental organization which is
+                                abode
+                                of 120 children and oldage people.Located in Bairagipatteda , Tirupathi, Andhrapradesh .
+                                When i am 12 me with my father went to my relatives marriage and when on the way in
+                                return
+                                to our home one carpenter is beating a kid who is 10 years old very ruthlessly and that
+                                boy
+                                is screaming loudly ,but no one came to help him and to stop carpenter ,then i asked my
+                                father why that he is beating very cruely and nobody is coming to stop him why ?
+                                Then my father replied if something happens to you i am there to take care of you but
+                                he doesn't have anyone like you , then it realized me that if child is orphan
+                                everyone will have rights on him except the child him self another situation ,which
+                                felt me very doleful is after my marriage I went to Tirumala , afterfinishing the
+                                darshan
+                                we came out of temple somebody had dragged my son from hands and ran away and those
+                                people
+                                were changing my son into many hands and finally by chasing them i received my son back
+                                .
+                                From this situation i came to know that it is quite common in cities and those children
+                                who will be thefted will be sent as beggers by making them handicapped. It really made
+                                my
+                                heart very mournful.by facing this situation i became very sensitive and i used to help
+                                many
+                                people finally 14 children were used to be with meby seeing me some officers did quiry
+                                about
+                                me and they acknowledged me about official process and registered as Mathrusya.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Core Values -->
+            <section class="values-section">
+                <h2 class="section-title text-center">Our Core Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">❤️</div>
+                        <h3>Compassion </h3>
+                        <p>We serve every person with kindness,
+                            empathy, and love.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🎓</div>
+                        <h3>Education & Growth</h3>
+                        <p>We promote quality education, creativity,
+                            logical thinking, physical development, and lifelong learning.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🛡️</div>
+                        <h3>Safety & Security</h3>
+                        <p>We are committed to providing a safe and secure environment
+                            for those under our care.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🏠</div>
+                        <h3>Family & Belonging</h3>
+                        <p>We create a safe, loving, and supportive environment
+                            where everyone feels valued.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- SECTION: OUR CHILDREN -->
+        <section id="children" class="page-section">
+            <div class="section-header-banner">
+                <h1>Our Children & Development</h1>
+                <p>Nurturing children, enriching minds, and building characters.</p>
+            </div>
+
+            <div class="children-intro-grid">
+                <div class="children-intro-visual">
+                    <img src="assets/education _2.webp" alt="Students in a classroom"
+                        class="children-img shadow-effect">
+                </div>
+                <div class="children-intro-text">
+                    <h2>Nurturing the Next Generation</h2>
+                    <p>At Mathrusya, our children are aged between 1 and 25 years. We believe their developmental
+                        journey should include more than basic shelter. We ensure every child receives balanced growth
+                        in all aspects of life:</p>
+
+                    <div class="bullet-list-desc">
+                        <div class="bullet-item">
+                            <span class="bullet-check">✓</span>
+                            <div>
+                                <strong>School Education:</strong> Enrolled in regional and private English-medium
+                                schools, with full support for tuition, uniforms, and textbooks.
+                            </div>
+                        </div>
+                        <div class="bullet-item">
+                            <span class="bullet-check">✓</span>
+                            <div>
+                                <strong>Sports & Co-curricular:</strong> Regular sports equipment, drawing, painting,
+                                music, and yoga training to boost physical and mental health.
+                            </div>
+                        </div>
+                        <div class="bullet-item">
+                            <span class="bullet-check">✓</span>
+                            <div>
+                                <strong>Hygiene and Health:</strong> Regular pediatric checkups, nutritional
+                                supplements, and hygiene workshops.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daily Schedule -->
+            <section class="schedule-section">
+                <h2 class="section-title text-center">A Day in the Life at Mathrusya</h2>
+                <p class="section-subtitle text-center">A structured routine is maintained to instill discipline and
+                    build healthy habits.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="time-marker">06:00 AM</div>
+                        <div class="timeline-content">
+                            <h3>Rise, Yoga & Meditation</h3>
+                            <p>Children start their day with mild exercise and yoga, fostering mindfulness and physical
+                                health.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time-marker">08:00 AM</div>
+                        <div class="timeline-content">
+                            <h3>Hygienic Breakfast</h3>
+                            <p>A nutritious breakfast (like Idli, Dosa, or Upma) is served alongside fresh milk.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time-marker">08:45 AM</div>
+                        <div class="timeline-content">
+                            <h3>School Hours</h3>
+                            <p>Children attend school, dressed in neat uniforms, driven and supported by the home's
+                                supervisors.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time-marker">04:30 PM</div>
+                        <div class="timeline-content">
+                            <h3>Snacks & Playground Time</h3>
+                            <p>Healthy evening snacks followed by open play time in the garden and neighborhood
+                                playground.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time-marker">05:30 PM</div>
+                        <div class="timeline-content">
+                            <h3>Study Hours </h3>
+                            <p>Home tutors and volunteers assist children with school homework </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time-marker">08:00 PM</div>
+                        <div class="timeline-content">
+                            <h3>Dinner & Sleep</h3>
+                            <p>A healthy dinner of rice, dal, and vegetables. Followed by relaxation time and lights out
+                                by 9:30 PM.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- SECTION: GALLERY -->
+        <section id="gallery" class="page-section">
+            <div class="section-header-banner">
+                <h1>Memory Gallery</h1>
+                <p>Moments of joy, learning, and sharing captured in pictures.</p>
+            </div>
+
+            <div class="gallery-wrapper">
+                <!-- Gallery Filter Buttons -->
+                <div class="gallery-filters" id="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="education">Education</button>
+                    <button class="filter-btn" data-filter="celebrations">Celebrations</button>
+                    <button class="filter-btn" data-filter="Service">Service</button>
+                    <button class="filter-btn" data-filter="group">Group</button>
+                    <button class="filter-btn" data-filter="founder">Founder</button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="gallery-grid">
+
+                    <!-- Item 1 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/education_1.webp" alt="Children study hours">
+                        <div class="gallery-overlay">
+                            <h3>Children study hours</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/education _2.webp" alt="study hours">
+                        <div class="gallery-overlay">
+                            <h3>study hours</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/education_6.webp" alt="Tution hours">
+                        <div class="gallery-overlay">
+                            <h3>Tution Hours</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/playing_1.webp" alt="playing hours">
+                        <div class="gallery-overlay">
+                            <h3>playing Hours</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/playing_2.webp" alt="playing hours">
+                        <div class="gallery-overlay">
+                            <h3>playing Hours</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/education _4.webp" alt="dance">
+                        <div class="gallery-overlay">
+                            <h3>dance</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="gallery-item" data-category="education">
+                        <img src="assets/education_5.webp" alt="dance">
+                        <div class="gallery-overlay">
+                            <h3>dance</h3>
+                            <p>Education</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 8 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/celebration-1.jpeg" alt="Children celebrating festival">
+                        <div class="gallery-overlay">
+                            <h3>Diwali celebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/celebration-2.jpeg" alt="Children celebrating birthday">
+                        <div class="gallery-overlay">
+                            <h3>Birthdaycelebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 11 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/celebration-3.jpeg" alt="Children celebrating birthday">
+                        <div class="gallery-overlay">
+                            <h3>Birthdaycelebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 12 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/diwali_1.webp" alt="Children celebrating festival">
+                        <div class="gallery-overlay">
+                            <h3>Diwalicelebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 13 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/diwali_2.webp" alt="Children celebrating festival">
+                        <div class="gallery-overlay">
+                            <h3>Diwalicelebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 14 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/pongal_1.webp" alt="Children celebrating festival">
+                        <div class="gallery-overlay">
+                            <h3>pongal celebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 15 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/Birthday.webp" alt="Children celebrating birthday">
+                        <div class="gallery-overlay">
+                            <h3>Birthday celebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 16 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/birthday_2.webp" alt="Children celebrating birthday">
+                        <div class="gallery-overlay">
+                            <h3>Birthday celebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 16 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/vinayaka festival.webp" alt="Children celebrating festival">
+                        <div class="gallery-overlay">
+                            <h3>Vinayaka festival celebration</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Item 17 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/serve-1.webp" alt="outside Service">
+                        <div class="gallery-overlay">
+                            <h3>Outisde Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 18 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/serve-2.webp" alt="outside Service">
+                        <div class="gallery-overlay">
+                            <h3>Outisde Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 19 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/serve-3.webp" alt="outside Service">
+                        <div class="gallery-overlay">
+                            <h3>Outisde Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 20 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/serve-4.webp" alt="outside Service">
+                        <div class="gallery-overlay">
+                            <h3>Outisde Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 21 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/serve-5.webp" alt="outside Service">
+                        <div class="gallery-overlay">
+                            <h3>Outisde Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 22 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/serve_1.webp" alt="medical service">
+                        <div class="gallery-overlay">
+                            <h3>medicalService</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 23 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/service-1.jpeg" alt="service">
+                        <div class="gallery-overlay">
+                            <h3>Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 24 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/service-2.jpeg" alt="service">
+                        <div class="gallery-overlay">
+                            <h3>Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 25 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/service-3.jpeg" alt="service">
+                        <div class="gallery-overlay">
+                            <h3>Service</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 26 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/clothes .jpeg" alt="clothes Distribution">
+                        <div class="gallery-overlay">
+                            <h3>Clothes Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 27 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/clothes .jpeg" alt="clothes Distribution">
+                        <div class="gallery-overlay">
+                            <h3>Clothes Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 28 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_1.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 29 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_2.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 30 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_3.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 31 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_3.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 32 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_4.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 33 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_5.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 34 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_6.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 35 -->
+                    <div class="gallery-item" data-category="Service">
+                        <img src="assets/food_7.webp" alt="food Distribution">
+                        <div class="gallery-overlay">
+                            <h3>food Distribution</h3>
+                            <p>Service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 36 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/archive_1.webp" alt="childrens archive">
+                        <div class="gallery-overlay">
+                            <h3>chilrens archive</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 37 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/archive_2.webp" alt="childrens archive">
+                        <div class="gallery-overlay">
+                            <h3>chilrens archive</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 38 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/archive_2.webp" alt="childrens archive">
+                        <div class="gallery-overlay">
+                            <h3>chilrens archive</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 39 -->
+                    <div class="gallery-item" data-category="celebrations">
+                        <img src="assets/archive_3.webp" alt="childrens archive">
+                        <div class="gallery-overlay">
+                            <h3>chilrens archive</h3>
+                            <p>Celebrations</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 40 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 41 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_1.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 42 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_2.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 43 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_3.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 44 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_4.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 45 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_5.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 46 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_6.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 47 -->
+                    <div class="gallery-item" data-category="founder">
+                        <img src="assets/founder_7.webp" alt="achievements">
+                        <div class="gallery-overlay">
+                            <h3>achievements</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 48 -->
+                    <div class="gallery-item" data-category="group">
+                        <img src="assets/group-1.jpeg" alt="group">
+                        <div class="gallery-overlay">
+                            <h3>group</h3>
+                            <p>Group</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 49 -->
+                    <div class="gallery-item" data-category="group">
+                        <img src="assets/group-2.webp" alt="group">
+                        <div class="gallery-overlay">
+                            <h3>group</h3>
+                            <p>Group</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 50 -->
+                    <div class="gallery-item" data-category="group">
+                        <img src="assets/group-3.jpeg" alt="group">
+                        <div class="gallery-overlay">
+                            <h3>group</h3>
+                            <p>Group</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 51 -->
+                    <div class="gallery-item" data-category="group">
+                        <img src="assets/gaming.webp" alt="group">
+                        <div class="gallery-overlay">
+                            <h3>group</h3>
+                            <p>Group</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION: HOW TO HELP (DONATE) -->
+        <section id="donate" class="page-section">
+            <div class="section-header-banner">
+                <h1>Help Us Make a Difference</h1>
+                <p>Your support provides food, shelter, and a bright future for our children.</p>
+            </div>
+
+            <div class="donate-intro-text">
+                <h2>Choose How You Support</h2>
+                <p>Mathrusya Child Home is funded entirely through the generosity of private individuals, families, and
+                    corporations. We do not rely on fixed government funding. Every rupee contributed directly helps
+                    supply nutritious meals, school supplies, and safe housing for the kids.</p>
+            </div>
+
+            <!-- Sponsorship Cards Grid -->
+            <div class="sponsorship-grid">
+
+                <!-- Card 1 -->
+                <div class="sponsor-card">
+                    <div class="sponsor-badge p-lightorange">Most Direct</div>
+                    <h3>Sponsor a Day's Meal</h3>
+                    <p class="sponsor-desc">Provide healthy, home-cooked breakfast, lunch, and dinner to all children
+                        and old age
+                        people for a special day (like a birthday or anniversary).
+                        For sponsor-price details contact us.</p>
+                    <a href="#bank-details-anchor" class="btn btn-primary btn-full-width"
+                        onclick="scrollToElement('bank-details-anchor')">Donate Now</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="sponsor-card featured-card">
+                    <div class="sponsor-badge p-lightgreen">Highly Needed</div>
+                    <h3>Sponsor a Child's Education</h3>
+                    <p class="sponsor-desc">Covers school fees, transportation, textbooks, notebooks, uniform, and bags
+                        for one child for an entire academic year.
+                        For sponsor-price details contact us.</p>
+                    <a href="#bank-details-anchor" class="btn btn-white btn-full-width"
+                        onclick="scrollToElement('bank-details-anchor')">Sponsor Education</a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="sponsor-card">
+                    <div class="sponsor-badge p-lightblue">Monthly Care</div>
+                    <h3>Sponsor Monthly Welfare</h3>
+                    <p class="sponsor-desc">Contribute to a child's complete welfare package, including housing,
+                        security, food, milk, clothing, and primary medical care.
+                        For sponsor-price details contact us.</p>
+                    <a href="#bank-details-anchor" class="btn btn-primary btn-full-width"
+                        onclick="scrollToElement('bank-details-anchor')">Sponsor Monthly</a>
+                </div>
+            </div>
+
+            <!-- Bank Details Box (Direct Donation) -->
+            <section class="bank-details-section" id="bank-details-anchor">
+                <div class="bank-details-header">
+                    <h2>Direct Bank Transfer Details</h2>
+                    <p>You can send donations directly via UPI or NEFT/IMPS bank transfers. All donations are
+                        transparently audited.</p>
+                </div>
+
+                <div class="bank-details-grid">
+                    <!-- Column 1: Bank Transfer -->
+                    <div class="bank-info-box">
+                        <h3>NEFT / IMPS Bank Details</h3>
+
+                        <div class="info-row">
+                            <span class="info-label">Account Name</span>
+                            <div class="info-value-copy">
+                                <span class="info-value" id="copy-acc-name">Mathrusya </span>
+                                <button class="btn-copy" onclick="copyText('copy-acc-name', this)"
+                                    aria-label="Copy account name">
+                                    <span class="copy-icon">📋</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="info-row">
+                            <span class="info-label">Bank Name</span>
+                            <div class="info-value-copy">
+                                <span class="info-value" id="copy-bank-name">state Bank of India </span>
+                                <button class="btn-copy" onclick="copyText('copy-bank-name', this)"
+                                    aria-label="Copy bank name">
+                                    <span class="copy-icon">📋</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="info-row">
+                            <span class="info-label">Account Number</span>
+                            <div class="info-value-copy">
+                                <span class="info-value" id="copy-acc-num">42019456223</span>
+                                <button class="btn-copy" onclick="copyText('copy-acc-num', this)"
+                                    aria-label="Copy account number">
+                                    <span class="copy-icon">📋</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="info-row">
+                            <span class="info-label">IFSC Code</span>
+                            <div class="info-value-copy">
+                                <span class="info-value" id="copy-ifsc">SBIN0021060</span>
+                                <button class="btn-copy" onclick="copyText('copy-ifsc', this)"
+                                    aria-label="Copy IFSC code">
+                                    <span class="copy-icon">📋</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: UPI / QR Code -->
+                    <div class="bank-info-box text-center justify-center">
+                        <h3>UPI / QR Code Transfer</h3>
+
+                        <div class="upi-id-box">
+                            <span class="upi-label">UPI ID</span>
+                            <div class="info-value-copy centered-copy">
+                                <span class="info-value" id="copy-upi">9700440415@ybl</span>
+                                <button class="btn-copy" onclick="copyText('copy-upi', this)" aria-label="Copy UPI ID">
+                                    <span class="copy-icon">📋</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="qr-placeholder">
+                            <!-- QR Code Image Section -->
+                            <div class="qr-container">
+                                <img src="assets/QR.jpeg" alt="UPI QR Code" class="qr-image">
+                                <p class="qr-sub">Scan using any UPI App (GPay, PhonePe, Paytm)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tax-exemption-note">
+                        <p>💡 <strong>Note:</strong> Once you make a transfer, please send the transaction receipt
+                            screenshot to <strong>+91 97004 40415 or 86862 65143</strong> via WhatsApp or email us so we
+                            can verify the
+                            funds. Thank you!</p>
+                    </div>
+            </section>
+        </section>
+
+
+        <!-- SECTION: CONTACT US -->
+        <section id="contact" class="page-section">
+            <div class="section-header-banner">
+                <h1>Contact Us</h1>
+                <p>We welcome you to visit us, volunteer, or reach out with questions.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions about sponsoring children, visiting, or volunteering? Fill out the form or reach
+                        out directly through phone or email.</p>
+
+                    <div class="contact-details-list">
+
+                        <div class="contact-detail-card">
+                            <div class="contact-icon-circle">
+                                📞
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>Phone / Whatsapp</h4>
+                                <p><a href="tel:+919700440415">+91 97004 40415</a></p>
+                                <p><a href="tel:+918686265143">+91 86862 65143</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-card">
+                            <div class="contact-icon-circle">
+                                ✉️
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>Email Address</h4>
+                                <p><a href="mailto:Mathrusya2014@gmail.com">Mathrusya2014@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-card">
+                            <div class="contact-icon-circle">
+                                📍
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>Office & Home Address</h4>
+                                <p>Sai Nagar, M.K. Naidu Colony,
+                                    Bairagi patteda, Tirupati,Andhra Pradesh 517501, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Styled Map representation -->
+                <section class="map-section">
+                    <h2>Our Location Map</h2>
+                    <p>Located in the heart of Tirupati, close to Bairagi Patteda area, easily accessible from Tirupati
+                        Bus
+                        Stand and Railway Station.</p>
+
+                    <div class="map-container-mock">
+                        <!-- Google Maps Iframe Embed for Tirupati (specifically Bairagi Patteda area) -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.012!2d79.421598!3d13.6162513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b7701388271%3A0xe801b0ae204f0f10!2sMathrusya%20Child%20Home!5e0!3m2!1sen!2sin!4v1720966453912!5m2!1sen!2sin"
+                            width="100%" height="450" style="border:0; border-radius: 12px; box-shadow: var(--shadow-md);"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </section>
+        </section>
+    </main>
+
+    <!-- Lightbox Overlay for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev">&#10094;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Zoomed view of gallery item">
+        <button class="lightbox-nav lightbox-next" id="lightbox-next">&#10095;</button>
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll back to top">↑</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-grid">
+                <!-- Col 1: About info -->
+                <div class="footer-column-about">
+                    <div class="footer-logo">
+                        <img src="assets/LOGO MATHRUSYA.png" alt="Mathrusya Child Home Logo">
+                        <h3>Mathrusya Child Home</h3>
+                    </div>
+                    <p>Mathrusya Child Home is a registered charitable trust in Tirupati, dedicated to providing
+                        shelter, Food, and Education to orphan children since 2007.</p>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="footer-column-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" onclick="navigateToPage('home')">Home</a></li>
+                        <li><a href="#about" onclick="navigateToPage('about')">About Us</a></li>
+                        <li><a href="#children" onclick="navigateToPage('children')">Our Children</a></li>
+                        <li><a href="#gallery" onclick="navigateToPage('gallery')">Memory Gallery</a></li>
+                        <li><a href="#donate" onclick="navigateToPage('donate')">Donate & Help</a></li>
+                        <li><a href="#contact" onclick="navigateToPage('contact')">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Contact Info -->
+                <div class="footer-column-contact">
+                    <h4>Reach Us</h4>
+                    <p>📍 Sai Nagar, M.K. Naidu Colony,Bairagi Patteda, Tirupati, Andhra Pradesh, 517501, India.</p>
+                    <p>📞 Phone: +91 97004 40415,
+                        +91 86862 65143</p>
+                    <p>✉️ Email: Mathrusya2014@mail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-separator"></div>
+
+            <div class="footer-row-bottom">
+                <div class="footer-social-icons">
+                    <a href="https://www.instagram.com/mathrusya?igsi=YWl0cHFmeXVnMjR3" target="_blank"
+                        rel="noopener noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@mathrusyacharitabletrust?si=BTEsr3iPSoT8joQF" target="_blank"
+                        rel="noopener noreferrer" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                            <path
+                                d="M21.54 6.5a2.54 2.54 0 0 0-1.79-1.8C18.17 4.28 12 4.28 12 4.28s-6.17 0-7.75.42a2.54 2.54 0 0 0-1.79 1.8C2 8.08 2 12 2 12s0 3.92.46 5.5a2.54 2.54 0 0 0 1.79 1.8c1.58.42 7.75.42 7.75.42s6.17 0 7.75-.42a2.54 2.54 0 0 0 1.79-1.8C22 15.92 22 12 22 12s0-3.92-.46-5.5zM8.5 15V9l5.5 3-5.5 3z" />
+                        </svg>
+                    </a>
+                </div>
+                <p>&copy; 2014 Mathrusya Child Home. All Rights Reserved. Managed by Mathrusya Charitable Trust.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle -->
+    <script src="script.js"></script>
+</body>
+
+</html>
